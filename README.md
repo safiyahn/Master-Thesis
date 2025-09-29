@@ -1,7 +1,8 @@
+# Master Thesis
 This repository contains the Python code developed for my Master Thesis in Financial Econometrics at Vrije Universiteit Amsterdam (May 2025).
 The research evaluates which volatility model best forecasts stock market risk by applying a range of GARCH-family models and the Generalized Autoregressive Score (GAS) model to financial time series.
 
-# Project Overview
+### Project Overview
 The project investigates daily log-returns of two stocks from different sectors:
 JPMorgan Chase & Co. (JPM) – banking sector
 NVIDIA Corporation (NVDA) – technology/AI sector
@@ -12,7 +13,7 @@ Two estimation approaches:
 Frequentist: Maximum Likelihood Estimation (MLE)
 Bayesian: Random-Walk Metropolis–Hastings (RWMH)
 
-# Key Features
+### Key Features
 - Parameter Estimation
   - MLE optimization for frequentist inference
   - Bayesian sampling using RWMH within an MCMC framework
